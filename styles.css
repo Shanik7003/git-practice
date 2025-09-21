@@ -1,0 +1,153 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+.firstBox {
+  background-color: #1F2937;
+  display: flex;
+  flex-direction: column;
+  padding: 200px;
+  padding-top: 0%;
+  padding-bottom: 100px;
+  justify-content: space-between;
+}
+.firstBox button {
+  background-color: #3882F6;
+  height: 25px;
+  align-self: center;
+  border-radius: 10px; /* esquinas redondeadas */
+  border: 0px;
+  color: white;
+  width: 135px;
+  height: 35px;
+}
+.firstBox img {
+  width: 200px;
+}
+
+.mainText {
+  color: #F9FAF8;
+  font-weight: 900;
+  font-size: 48px;
+}
+
+.secondaryText {
+  color: #E5E7EB;
+  font-size: 18px;
+
+}
+.Logo {
+  color: #F9FAF8;
+  font-size: 24px;
+
+}
+
+.thirdBox {
+  background-color: #E5E7EB;
+  display: flex;
+  flex-direction: column;
+  padding: 150px;
+}
+.author{
+  align-self: flex-end;
+}
+
+.quoteText {
+  color: #1F2937;
+  font-weight: 300;
+  font-size: 36px;
+}
+.fourthBox{
+  background-color: #3882F6;
+  display: flex;
+  margin: 100px;
+  justify-content: space-around;
+  border-radius: 10px;
+  align-items: center;
+  padding: 40px 80px;
+  margin: 100px;
+  gap: 50px;
+}
+.fourthBox button{
+  background-color: #3882F6;
+  height: 25px;
+  align-self: center;
+  border-radius: 10px; /* esquinas redondeadas */
+  border-color: white;
+  color: white;
+  width: 135px;
+  height: 35px;
+}
+
+.fourthBoxText {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  /* justify-content: center; */
+  box-sizing: border-box;
+  width: 500px;
+  height: 100px;
+  font-size: 10px;
+  
+}
+.fourthBoxText p {
+  height: 0px;
+}
+.fourthBoxText h1 {
+  height: 0px;
+}
+.secondBox {
+  display: flex;
+  flex-direction: column;
+  padding: 350px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 25px;
+  padding-bottom: 100px;
+}
+
+.images4 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.secondBox img {
+  width: 150px;
+  height: auto;
+}
+
+img {
+  max-width: 100%; /* Hace que no sobrepasen el contenedor */
+  height: auto;    /* Mantiene la proporción */
+  display: block;  /* Quita espacios raros debajo */
+}
+
+.footage {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+  align-items: baseline; 
+}
+
+.links {
+  display: flex;
+  justify-content: end;
+  justify-content: space-evenly;
+  width: 500px;
+  
+}
+
+.section2 {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 100px;
+  gap: 50px;
+
+}
+.section2 img {
+    width: 350px;
+  height: auto;
+
+}
+
